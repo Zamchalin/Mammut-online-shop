@@ -45,6 +45,56 @@ a {
       line-height: 17.6px;
       letter-spacing: 0.96px;
       text-align: center;
+      &:hover {
+        background: rgba(255, 255, 255, 0.1);
+        transition: all 0.4s ease;
+        -webkit-transition: all 0.4s ease;
+      }
+    }
+  }
+  &__section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 526px;
+    left: 26px;
+    &_title {
+      color: rgba(255, 255, 255, 1);
+      font-family: Roboto;
+      font-size: 68px;
+      font-weight: 400;
+      line-height: 63.75px;
+      letter-spacing: 2.25px;
+      text-align: left;
+      margin-bottom: 41px;
+    }
+    &_information {
+      color: rgba(255, 255, 255, 1);
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 18.72px;
+      letter-spacing: 0.72px;
+      text-align: left;
+      max-width: 330px;
+      margin-bottom: 29px;
+    }
+    &_button {
+      display: flex;
+      color: rgba(255, 255, 255, 1);
+      font-family: Roboto;
+      font-size: 11px;
+      font-weight: 400;
+      line-height: 21px;
+      letter-spacing: 0.84px;
+      text-align: left;
+      box-sizing: border-box;
+      border: 1px solid rgba(255, 255, 255, 1);
+      border-radius: 3px;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 8px 53px 8px 17px;
+      cursor: pointer;
     }
   }
 }
