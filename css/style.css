@@ -130,8 +130,10 @@ a {
 }
 .asortiment__title-image {
   position: absolute;
+  position: absolute;
   top: 50%;
-  left: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: rgb(255, 255, 255);
   font-family: Roboto;
   font-size: 20px;
@@ -192,6 +194,7 @@ a {
 }
 
 .gender {
+  margin-bottom: 148px;
   display: flex;
   gap: 20px;
   margin-left: 32px;
