@@ -235,3 +235,69 @@ a {
     height: 38px;
   }
 }
+.bestsellers_assortiment {
+  margin-bottom: 147px;
+  &_nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 29px;
+  }
+  &_title {
+    color: rgba(25, 25, 25, 1);
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.4px;
+    letter-spacing: 1.92px;
+    text-align: left;
+  }
+  .button_discovermore {
+    color: rgba(25, 25, 25, 1);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.84px;
+    text-align: left;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 14px 12px;
+    margin-right: 10px;
+  }
+  &_button {
+    padding: 14px 12px;
+    margin-left: 16px;
+    box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 1);
+    border: none;
+    cursor: pointer;
+  }
+  &_cards {
+    display: flex;
+    gap: 21px;
+    justify-content: space-between;
+  }
+  &_card-title {
+    color: rgba(25, 25, 25, 1);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15.84px;
+    letter-spacing: 0.86px;
+    text-align: left;
+    margin-bottom: 6px;
+    margin-top: 20px;
+  }
+  &_card-price {
+    color: rgba(25, 25, 25, 1);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15.6px;
+    letter-spacing: 0.48px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+}
